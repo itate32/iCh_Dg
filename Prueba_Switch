@@ -15,7 +15,7 @@ public class Prueba_Switch {
 			System.out.println("Es Martes!");
 		break;
 		case 3:
-			System.out.println("Es MiÈrcoles !");
+			System.out.println("Es Mi√©rcoles !");
 		break;
 		case 4:
 			System.out.println("Es Jueves !");
@@ -24,14 +24,14 @@ public class Prueba_Switch {
 			System.out.println("Es Viernes !");
 		break;
 		case 6:
-			System.out.println("Es S·bado !");
+			System.out.println("Es S√°bado !");
 		break;
 		case 7:
 			System.out.println("Es Domingo !");
 		break;
 		
 		default:
-			System.out.println("Debe seleccionar un dÌa v·lido, no sea retard!");
+			System.out.println("Debe seleccionar un d√≠a v√°lido !");
 		
 			}
 		}
