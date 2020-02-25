@@ -1,0 +1,23 @@
+package poo;
+
+public class UsodeCoche {
+
+	public static void main(String[] args) {
+		
+		Coche micoche = new Coche ();
+		
+		
+		micoche.establece_color();
+		System.out.println (micoche.dame_color());
+		//para mostrar el largo cuando está privado instanciando a través de string dame largo
+		//System.out.println (micoche.dame_largo());
+		
+//		System.out.println ("Este vehículo tiene: " + Renault.ruedas + " ruedas.");
+//		System.out.println ("Un largo de : " + Renault.largo + " centímetros.");
+//		System.out.println ("Un ancho de : " + Renault.ancho + " centímetros.");
+//		System.out.println ("Un motor de : " + Renault.ancho + " centímetros cúbicos");
+//		System.out.println ("Y un peso de : " + Renault.peso + " kilogramos");
+
+	}
+
+}
