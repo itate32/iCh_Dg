@@ -1,0 +1,36 @@
+package poo;
+
+public class Coche {
+	
+	String color;
+	int peso_total;
+	boolean asientos_cuero, climatizador;
+	private int ruedas;
+	private int largo;
+	private int ancho;
+	private int motor;
+	private int peso;
+	
+	public Coche () {
+		
+		ruedas = 4;
+		largo = 2000;
+		ancho = 300;
+		motor = 1600; //centímetros cúbicos
+		peso = 500; //kilos
+		
+	}
+	//return permite acceder al método privado (en este caso "largo".)
+	public String dame_largo(){ //getter
+		return "el largo del auto es: " + largo;
+	}
+	
+	public void establece_color(){ //setter
+		color="azul";
+	}
+	
+	public String dame_color() {
+		return "el color del auto es: " + color;
+		
+	}
+}
